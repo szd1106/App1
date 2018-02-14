@@ -2,10 +2,47 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App1"
+             BackgroundImage="image.jpg"
              x:Class="App1.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
 
+
+    <StackLayout Spacing="0" Padding="30" x:Name="layout" BackgroundColor="Transparent">
+        <Grid ColumnSpacing="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backbutton" Grid.Row="0" Grid.Column="0"  BackgroundColor="Transparent" Image="ireturn.png" />
+            <Button x:Name="homebutton" Grid.Row="0"  Grid.Column="1"   BackgroundColor="Transparent" Image="home.png" />
+            <Button x:Name="settingbutton" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent" Image="setting.png" />
+        </Grid>
+        
+            <Button x:Name="ah" Text="Art and History" VerticalOptions="EndAndExpand"
+        HorizontalOptions="FillAndExpand" TextColor="White" HeightRequest="55" BackgroundColor="SteelBlue" Clicked="Ahcd"/>
+
+                <Button x:Name="fw" Text="Food and Wine" TextColor="White" VerticalOptions="EndAndExpand"
+        HorizontalOptions="FillAndExpand"  HeightRequest="55" BackgroundColor="SteelBlue" Clicked="Fwcd" />
+
+                <Button x:Name="oa" Text="Outdoor Activities"  VerticalOptions="EndAndExpand" TextColor="White"
+        HorizontalOptions="FillAndExpand"  HeightRequest="55" BackgroundColor="SteelBlue" Clicked="Oacd" />
+
+                <Button x:Name="s" Text="Shopping"  VerticalOptions="EndAndExpand" TextColor="White"
+        HorizontalOptions="FillAndExpand"  HeightRequest="55" BackgroundColor="SteelBlue" Clicked="Scd" />
+
+                <Button x:Name="e" Text="Enlertainment" VerticalOptions="EndAndExpand" TextColor="White"
+        HorizontalOptions="FillAndExpand"  HeightRequest="55" BackgroundColor="SteelBlue" Clicked="Ecd" />
+
+        <Button x:Name="ct" Text="Cultural Tips" VerticalOptions="EndAndExpand" TextColor="White"
+        HorizontalOptions="FillAndExpand"  HeightRequest="55" BackgroundColor="SteelBlue" Clicked="Ecd" />
+
+
+
+            </StackLayout>
+        
+  
 </ContentPage>

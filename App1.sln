@@ -7,7 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Android", "App1\App1.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.iOS", "App1\App1.iOS\App1.iOS.csproj", "{3BA3B66D-6C30-4591-B96D-3E66E03A70EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1\App1.csproj", "{236B72A0-1F25-4A85-9D01-75981D3D43CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1", "App1\App1\App1.csproj", "{236B72A0-1F25-4A85-9D01-75981D3D43CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{9881BE6F-8E64-4680-81EF-4B27A5B89084}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\ZhenDong\Desktop\home.png = C:\Users\ZhenDong\Desktop\home.png
+		C:\image.jpg = C:\image.jpg
+		C:\Users\ZhenDong\Desktop\return.png = C:\Users\ZhenDong\Desktop\return.png
+		C:\Users\ZhenDong\Desktop\setting.png = C:\Users\ZhenDong\Desktop\setting.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
